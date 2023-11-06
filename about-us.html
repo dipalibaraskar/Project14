@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My Journey of Web Design and Development with Correlation One">
+    <meta name="keywords" content="Journey, mywebsite, Dipali, Website, HTML, CSS, Website Design">
+    <title>Dipali's Website</title>
+    <link rel="icon" type="image/x-icon" href="media/DY.png">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/togglemode.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="./javascript/mywebsite.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <div class="container-fluid">
+
+                    <img src="media/DY.png" id="logo" alt="website Logo" style="margin: 10px;">
+                    <a class="navbar-brand" href="index.html">Web Development</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02" style="padding-left: 20px;">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="products/singleproduct.html">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact-us.html">Contact Us</a>
+                            </li>
+                        </ul>
+                        <div id="divToggle">
+
+                            <label class="toggle">
+                                <input id="toggleswitch" type="checkbox">
+                                <span class="roundbutton"></span>
+                            </label>
+                        </div>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="about-us row" id="aboutus">
+            <div class="col-lg-12">
+
+                <h2>About Us</h2>
+                <p>Hey there! I'm Dipali Baraskar, a web developer and tech enthusiast based in the digital realm. My
+                    fascination with
+                    coding started at a young age, and I've been on an incredible journey ever since. With a strong
+                    passion
+                    for
+                    creating innovative web experiences, I decided to share my knowledge through this website.</p>
+                <p>When I'm not typing away at my keyboard,aboutme you can find me exploring the latest web
+                    technologies,
+                    experimenting
+                    with new coding challenges, or sipping coffee at a local café. If you're curious to know more about
+                    my
+                    journey, you can also check out my <a href="https://facebook.com/dipalibaraskar"
+                        target="_blank">Facebook</a>
+                    profile.
+                </p>
+            </div>
+        </div>
+        <div class="content row" id="websitecontent">
+            <div class="col-lg-12">
+                <h2 style="color: red;">Website Content</h2>
+                <p><strong>Our website is a hub of insightful articles, journey, and updates about web
+                        development.</strong> From
+                    front-end
+                    design with formatting, we cover a wide range of topics to help you stay at the forefront of the
+                    ever-evolving tech landscape.</p>
+
+                <p>You will find here <a href="index.html" target="_blank">Introduction</a>,
+                    <a href="#">About Us</a>, My Journey and some Blog posts. You can
+                    connect
+                    me
+                    for latest updates by <a href="#signform">signing up</a> here.
+                </p>
+                <p>Explore our blog, where we dive into the intricacies of modern web development trends. Our news feed
+                    keeps
+                    you updated with the latest industry news, and our project showcases provide real-world examples of
+                    cutting-edge web solutions.</p>
+            </div>
+        </div>
+        <div class="cta" id="Journey">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Join My Journey</h2><br>
+                    <p>Ready to embark on your own web development journey? Sign up for our newsletter to receive
+                        regular
+                        updates, My Updates, News, Achievements and many more to Learn..</p>
+                    <p>Don't miss out on the chance to be a part of our thriving success!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                </div>
+                <div class="col-lg-6">
+
+                    <div class="submit" id="signform">
+                        <form action="#">
+                            <input class="form-control" style="width: 300px;display: inline-block;" type="email"
+                                placeholder="Enter your Email" aria-label="Email">
+
+                            <button class="btn btn-success" type="submit" value="Submit">Subscribe</button>
+                            <button type="button" class="btn btn-warning" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Register
+                            </button>
+
+
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" style="color: #333; text-align: left;">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Register Now !</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div id="form-submitted-msg">Form successfully submitted!</div>
+
+                                    <form id="exampleForm" novalidate>
+                                        <div class="mb-3 input-group">
+                                            <label for="username" class="form-label">User
+                                                Name</label>
+                                            <input type="text" class="form-control" id="username" name="username"
+                                                required>
+                                            <small class="error-msg invalid-feedback">Required</small>
+                                        </div>
+                                        <div class="mb-3 input-group">
+                                            <label for="email" class="form-label">Email</label>
+                                            <input type="email" class="form-control" id="email" name="email" required>
+                                            <small class="error-msg invalid-feedback">Required</small>
+                                        </div>
+                                        <div class="mb-3 input-group">
+                                            <label for="password" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="password" name="password"
+                                                required>
+                                            <small class="error-msg invalid-feedback">Required</small>
+                                        </div>
+                                        <div class="mb-3 input-group">
+                                            <label for="address" class="form-label">Address
+                                            </label>
+                                            <input type="text" class="form-control" id="address"
+                                                name="address" required>
+                                            <small class="error-msg invalid-feedback">Required</small>
+                                        </div>
+                                        
+                                        <div class="modal-footer form-btns">
+                                            <button type="reset" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="submit" id="buttonValidation" class="btn btn-primary submit"
+                                                disabled>Save changes</button>
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer form-btns" style="display: none;">
+                    <button type="reset" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" id="buttonValidation" class="btn btn-primary submit" disabled>Save
+                        changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+
+
+        <div id="socialmedia">
+            <a href="https://www.facebook.com/dipalibaraskar" target="_blank"> <img src="media/fb.png" alt="Facebook">
+            </a>
+            <a href="https://www.twitter.com/dipalibaraskar" target="_blank"> <img src="media/tw.png" alt="Twitter">
+            </a>
+            <a href="https://www.instagram.com/dipalibaraskar" target="_blank"> <img src="media/ins.png"
+                    alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/dipalibaraskar" target="_blank">
+                <img src="media/li.png" alt="LinkedIn">
+            </a>
+            <a href="https://www.youtube.com/user/dipalibaraskar" target="_blank">
+                <img src="media/yt.png" alt="YouTube">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

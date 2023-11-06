@@ -1,0 +1,25 @@
+body.dark {
+    background-color: #292c35;
+    color: #fff;
+}
+
+body.dark .bg-primary,
+body.dark .row,
+body.dark .cta,
+body.dark #socialmedia  {
+    background-color: #292c35 !important;
+}
+
+body.dark .designh2{
+    text-shadow: 4px 1px black !important;
+}
+
+#divToggle{
+    margin-right: 25px;
+}
+
+
+body.dark .centered{
+    background: #292c35 !important;
+    color: #fff;
+}
